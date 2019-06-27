@@ -22,7 +22,7 @@ function resetGame() {
     remTries = 10;
     outRem.textContent = remTries;
     //new game means ten more tries
-    var guessMe = alphabet[Math.floor(Math.random() * alphabet.length)];
+    guessMe = alphabet[Math.floor(Math.random() * alphabet.length)];
     console.log("The computer chose " + guessMe);
     //computer picks a new letter
     
