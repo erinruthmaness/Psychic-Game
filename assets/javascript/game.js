@@ -49,7 +49,7 @@ document.onkeyup = function (event) {
             outRem.textContent = remTries;
             //subtracts a turn
             console.log("so far they've guessed " + guessArray);
-            userGuess.textContent = guessArray;
+            userGuess.textContent = guessArray.join(" ").toUpperCase();
 
             if (guessArray.length === 10) {
                 loss++;
